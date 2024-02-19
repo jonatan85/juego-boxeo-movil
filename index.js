@@ -18,7 +18,7 @@ server.use(express.urlencoded({ extended: false }));
 
 // Mensage para la ruta vacia de vercel.
 server.get('/', (req,res) => {
-    res.json("Bienvenido a mi API Jonatan!");
+    res.json("Bienvenido a mi ring!");
 });
 
 server.use('/boxeadores', boxeadoresRouter);
