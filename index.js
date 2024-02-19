@@ -6,7 +6,7 @@ const  connect = require('./utils/db/connect.js');
 
 connect();
 
-const PORT = 3000;
+const PORT = process.env.PORT || 4000;
 const server = express();
 
 // Para usar POSTMAN. instalar la dependencia cors npm install --save cors, corsOtions    
