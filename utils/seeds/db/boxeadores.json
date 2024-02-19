@@ -1,0 +1,63 @@
+[
+    {
+        "nombre": "Muhammad Ali",
+        "edad": 74,
+        "tipo": "Pesado",
+        "imagen": "https://url_imagen_muhammad_ali.jpg"
+    },
+    {
+        "nombre": "Floyd Mayweather Jr.",
+        "edad": 45,
+        "tipo": "Wélter/Mediano",
+        "imagen": "https://url_imagen_mayweather.jpg"
+    },
+    {
+        "nombre": "Manny Pacquiao",
+        "edad": 43,
+        "tipo": "Wélter/Mediano",
+        "imagen": "https://url_imagen_pacquiao.jpg"
+    },
+    {
+        "nombre": "Mike Tyson",
+        "edad": 55,
+        "tipo": "Pesado",
+        "imagen": "https://url_imagen_tyson.jpg"
+    },
+    {
+        "nombre": "Canelo Álvarez",
+        "edad": 31,
+        "tipo": "Supermediano/Pesado Ligero",
+        "imagen": "https://url_imagen_canelo.jpg"
+    },
+    {
+        "nombre": "George Foreman",
+        "edad": 73,
+        "tipo": "Pesado",
+        "imagen": "https://url_imagen_foreman.jpg"
+    },
+    {
+        "nombre": "Sugar Ray Leonard",
+        "edad": 66,
+        "tipo": "Wélter/Mediano Ligero",
+        "imagen": "https://url_imagen_leonard.jpg"
+    },
+    {
+        "nombre": "Miguel Cotto",
+        "edad": 41,
+        "tipo": "Wélter/Mediano",
+        "imagen": "https://url_imagen_cotto.jpg"
+    },
+    {
+        "nombre": "Lennox Lewis",
+        "edad": 56,
+        "tipo": "Pesado",
+        "imagen": "https://url_imagen_lewis.jpg"
+    },
+    {
+        "nombre": "Oscar De La Hoya",
+        "edad": 49,
+        "tipo": "Wélter/Mediano Ligero",
+        "imagen": "https://url_imagen_de_la_hoya.jpg"
+    }
+]
+
