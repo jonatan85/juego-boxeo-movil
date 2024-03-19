@@ -1,19 +1,24 @@
 const express = require('express');
 const Boxeadores = require('../models/Boxeadores.js');
 
+const isAuthPassport = require('../utils/middleware/auth-passport.middleware.js');
+
 const boxeadoresRouter = express.Router();
 
 boxeadoresRouter.get('/', async (req, res, next) => {
     try {
         const boxeadores = await Boxeadores.find();
-        return res.status(200).json(boxeadores)
+        return res.status(200).json({
+            boxeadores, 
+            user: req.user
+        });
     } catch(err) {
         next(err);
     }
 });
 
 
-boxeadoresRouter.get('/:id',  async (req, res, next) => {
+boxeadoresRouter.get('/:id', [isAuthPassport], async (req, res, next) => {
     const id = req.params.id;
     try {
         const boxeadores = await Boxeadores.findById(id);
